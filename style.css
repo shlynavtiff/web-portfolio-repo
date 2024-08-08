@@ -183,6 +183,7 @@ body {
     background: url(img/9.jpg) no-repeat center center/cover;
     height: 940px;
     align-items: center;
+    text-decoration: none;
 }
 
 .row {
@@ -190,7 +191,11 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     box-sizing: border-box;
+}
 
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .box {
@@ -206,7 +211,8 @@ body {
     border: 15px;
     background: linear-gradient(to top, rgb(36, 30, 30)50%, rgb(126, 125, 125) 50%);
     background-size: 100% 200%;
-    transition: all .9s;
+    transition: all .8s;
+    text-decoration: none;
 }
 
 .box:hover {
